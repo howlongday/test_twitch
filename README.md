@@ -23,8 +23,7 @@ pytest/
 ├── constants.py          # Shared UI selectors and configuration constants
 ├── requirements.txt      # Project dependencies
 ├── run_test.bat          # Batch script for one-click execution (Windows)
-├── .gitignore            # Git exclusion rules
-└── report.html           # Generated test report (Post-execution)
+└── .gitignore            # Git exclusion rules
 ```
 
 ## 🛠️ Setup & Installation
