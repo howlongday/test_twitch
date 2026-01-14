@@ -1,0 +1,23 @@
+# Python 產生的暫存編譯檔
+__pycache__/
+*.py[cod]
+*$py.class
+testcase/__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest 產生的暫存檔
+.pytest_cache/
+.cache/
+
+# 截圖
+*screenshot*/
+*.png
+*.log
+
+# 日誌
+*.html
+
+# 作業系統產生的雜物
+.DS_Store
+Thumbs.db
