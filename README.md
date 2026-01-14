@@ -3,7 +3,7 @@
 This project is a robust automation suite designed for testing the Twitch Mobile Web interface. Built with Python, Pytest, and Selenium, it features mobile device emulation, self-healing popup management, and detailed reporting with automated screenshots.
 
 ## 📸 Demo
-![Demo](./Demo.gif)
+<img src="./Demo.gif" width="400">
 
 ## ✨ Key Features
 - Mobile Emulation: Automatically simulates a Google Pixel 7 environment using Chrome DevTools Protocol.
