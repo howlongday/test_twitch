@@ -1,6 +1,6 @@
 # Twitch Mobile Web Automation (Pytest + Selenium)
 
-This project is a robust automation suite designed for testing the Twitch Mobile Web interface. Built with Python, Pytest, and Selenium, it features mobile device emulation, self-healing popup management, and detailed reporting with automated screenshots.
+This project implements UI automation testing for the Twitch mobile website using Python and Pytest. It includes features such as mobile device emulation, automated popup handling, and screenshot logging.
 
 ## 📸 Demo
 <img src="./Demo.gif" width="400">
@@ -8,8 +8,7 @@ This project is a robust automation suite designed for testing the Twitch Mobile
 ## ✨ Key Features
 - Mobile Emulation: Automatically simulates a Google Pixel 7 environment using Chrome DevTools Protocol.
 - Self-Healing Popup Handler: Built-in logic in actions.py to detect and dismiss intrusive UI elements during execution.
-- Automated Step-by-Step Screenshots:
-  - Captures screenshots for every critical action, saved in screenshots directory.
+- Automated Screenshots:
   - Failure Snapshot: Automatically triggers a full-page screenshot upon test failure via Pytest hooks.
 - Interactive Reports: Generates a self-contained HTML report with execution details and embedded logs.
 
